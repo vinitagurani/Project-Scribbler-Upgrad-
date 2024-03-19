@@ -1,0 +1,161 @@
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+
+button {
+    padding: 10px 20px;
+    color: white;
+    background-color: rgb(5, 49, 207);
+    border-color: aliceblue;
+    margin: 10px;
+}
+
+#heading {
+    font-family: 'Montez', 'cursive';
+    font-size: 40px;
+    color: rgb(4, 4, 135);
+}
+
+#sub-heading {
+    font-family: Ubuntu Mono;
+    font-size: medium;
+}
+
+.model-1 {
+    margin-left: 20px;
+}
+
+.model-2 {
+    margin-right: 20px;
+}
+
+.popup-signup {
+    visibility: hidden;
+    transform: scale(0);
+    width: 400px;
+    background: #fff;
+    border-radius: 6px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* text-align: center; */
+    padding: 20px 30px 30px;
+    color: #333;
+    font-family: 'Roboto';
+}
+
+.popup-signin {
+    visibility: hidden;
+    transform: scale(0);
+    width: 400px;
+    background: #fff;
+    border-radius: 6px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* text-align: center; */
+    padding: 20px 30px 30px;
+    color: #333;
+    font-family: 'Roboto';
+}
+
+.popup-signin a {
+    font-weight: bold;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.active {
+    visibility: visible !important;
+}
+
+.popup-signup hr {
+    color: rgb(128, 128, 128);
+    margin-bottom: 15px;
+}
+
+.popup-signin hr {
+    color: rgb(128, 128, 128);
+    margin-bottom: 15px;
+}
+
+.popup-title {
+    color: rgb(128, 128, 128);
+    font-size: 28px;
+}
+
+input {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    background-color: #ded9ee83;
+}
+
+
+label {
+    font-size: large;
+    font-weight: bold;
+}
+
+.close-signin {
+    color: #aaaaaa;
+    /* float: right; */
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-signin:hover,
+.close-signin:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.close-signup {
+    color: #aaaaaa;
+    /* float: right; */
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-signup:hover,
+.close-signup:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#popup-sign-up-btn {
+    background-color: rgb(87, 212, 87);
+    width: 100%;
+    color: #fff;
+    padding: 10px 20px;
+    color: white;
+    border-color: aliceblue;
+    margin-top: 20px;
+    border-radius: 6px;
+    font-size: large;
+    border-color: #aaaaaa;
+    margin-left: 0;
+}
+
+#title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sign-up-link {
+    cursor: pointer;
+}

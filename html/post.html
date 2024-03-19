@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montez&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="../styles/common.css" rel="stylesheet">
+    <link href="../styles/post.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+    <!-- Header -->
+    <nav>
+        <div class="model-1">
+            <a id="heading" href="../index.html" style="text-decoration:none" >ScriBBler</a>
+            <p id="sub-heading" >Explore, Imagine, Create</p>
+        </div>
+        <div class="model-2">
+            <button id="sign-up-btn" class="sign-up-btn" onclick="openPop()">Sign Up</button>
+            <button id="sign-in-btn" class="sign-in-btn">Sign In</button>
+        </div>
+    </nav>
+
+    <div class="container" >
+        <!-- title -->
+        <div id="editable-cont" class="editable">
+            <div id="edit-title" class="title">
+                <p>‘let’ me be a ‘const’(ant), not a ‘var’(iable)!</p>
+            </div>
+            <div class="authorName" contenteditable="false">
+                <p>Srishti Gupta</p>
+                <span>
+                    <!-- edit button -->
+                    <button id="editBtn" class="fa">Edit &#xf044;</button>
+                </span>
+            </div>
+            <div id="editable-para" class="postContent" >
+                <p>Since JavaScript does not have any type-checking, either of these keywords can be used to declare a variable of any type (datatype) in JavaScript. Though all the three keywords are used for the same purpose, they are different.
+                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                    The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+                </p>
+            </div>
+        </div>
+
+        <div class="likebtn">
+            <i id="LikeBtn" class="fa like-btn" >&#xf087; Like</i>
+            <p id="likeText" class="like-text">Be the first one to like this!</p>
+        </div>
+        <div class="comment-box">
+            <textarea name="comment" id="cmt"  rows="5" placeholder="Leave a comment..."></textarea>
+        </div>
+        <span>
+            <button id="comment-btn" class="comment-btn">Comment</button>
+        </span>
+        <div class="comments">
+            <p class="text-msg">All Comments</p>
+            <div id="allComments" class="all-comments">
+                <!-- <p>Great post!</p>
+                <p>Great post!</p>
+                <p>Great post!</p> -->
+            </div>
+        </div>
+        
+        <script src="../scripts/post.js"></script>
+    
+        
+    </div>
+</body>
+</html>

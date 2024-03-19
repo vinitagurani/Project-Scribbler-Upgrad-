@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- TODO: Include Font Awesome file here -->
+    <!-- TODO: Include Google Fonts file here -->
+    <link href="https://fonts.googleapis.com/css?family=Montez&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link href="./styles/index.css" rel="stylesheet">
+    <link href="./styles/common.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <div class="model-1">
+                <a id="heading">ScriBBler</a>
+                <p id="sub-heading">Explore, Imagine, Create</p>
+            </div>
+            <div class="model-2">
+                <button id="sign-up-btn" class="sign-up-btn" onclick="openPop()">Sign Up</button>
+                <button id="sign-in-btn" class="sign-in-btn">Sign In</button>
+            </div>
+        </nav>
+        <main id="section-2">
+            <button id="all-post" class="main-btn" onclick="window.location.href='./html/postslist.html'">All
+                Post</button>
+            <button id="create-post" class="create-btn main-btn">Create Post</button>
+            <div id="modal" class="modal">
+                <div id="popup-mod" class="popup-signup">
+                    <div id="title">
+                        <div class="popup-title">Get Started</div>
+                        <span class="close-signup">&times;</span>
+                    </div>
+                    <hr>
+                    <form action="">
+                        <label class="label">Name</label><br>
+                        <input id="name" type="text" class="input-name" placeholder="Enter your name" required><br>
+                        <label class="label">Username</label><br>
+                        <input id="user" type="text" class="input-user" placeholder="Enter your username" required><br>
+                        <label class="label">Password</label><br>
+                        <input id="pass" type="password" class="input-pass" placeholder="Enter your password"
+                            required><br>
+                        <label class="label">Confirm Password</label><br>
+                        <input id="confirm-pass" type="password" class="input-cpass"
+                            placeholder="Re enter your password" required>
+                        <button id="popup-sign-up-btn" class="popup-btn" type="submit">Sign Up</button>
+                    </form>
+                </div>
+                <div id="sign-in-popup" class="popup-signin">
+                    <div id="title">
+                        <div class="popup-title">Welcome Back!</div>
+                        <span class="close-signin">&times;</span>
+                    </div>
+                    <hr>
+                    <form action="">
+                        <label for="user" class="label">Username</label><br>
+                        <input id="user" type="text" class="input-user" placeholder="Enter your username" required><br>
+                        <label for="pass" class="label">Password</label><br>
+                        <input id="pass" type="password" class="input-pass" placeholder="Enter your password"
+                            required><br>
+                        <button id="popup-sign-up-btn" class="popup-btn" type="submit">Sign In</button>
+                        <div class="text-center">Not a member?<a type="button" class="sign-up-link"
+                                style="color: rgb(66, 112, 192);">sign Up</a></div>
+                    </form>
+                </div>
+            </div>
+            <div id="post-popup" class="post-popup">
+                <div id="title">
+                    <div class="popup-title">Pen Your Post</div>
+                    <span class="close-post">&times;</span>
+                </div>
+                <hr>
+                <form id="post">
+                    <label for="title" class="label">Title</label><br>
+                    <input id="title-post" type="text" class="input-title" placeholder="Enter title of your post"
+                        required><br>
+                    <label for="pass" class="label">Contents</label><br>
+                    <textarea rows="20" id="post-content" type="text" class="input-post"
+                        placeholder="Enter content of your post" required></textarea>
+                    <br>
+                    <div id="post-center">
+                        <button id="post-submit" class="new-post" type="submit">Create</button>
+                    </div>
+                </form>
+            </div>
+        </main>
+    </div>
+
+    <script src="./scripts/common.js">  </script>
+    <script src="./scripts/index.js"></script>
+</body>
+
+</html>
