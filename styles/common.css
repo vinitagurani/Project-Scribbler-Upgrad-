@@ -49,6 +49,7 @@ button {
     color: #333;
     font-family: 'Roboto';
     cursor: pointer;
+    z-index: 1;
 }
 
 .popup-signin {
@@ -65,6 +66,7 @@ button {
     padding: 20px 30px 30px;
     color: #333;
     font-family: 'Roboto';
+    z-index: 1;
 }
 
 .popup-signin a {
