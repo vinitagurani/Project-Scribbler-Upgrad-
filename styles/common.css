@@ -12,6 +12,7 @@ button {
     background-color: rgb(5, 49, 207);
     border-color: aliceblue;
     margin: 10px;
+    cursor: pointer;
 }
 
 #heading {
@@ -47,6 +48,7 @@ button {
     padding: 20px 30px 30px;
     color: #333;
     font-family: 'Roboto';
+    cursor: pointer;
 }
 
 .popup-signin {
@@ -148,6 +150,7 @@ label {
     font-size: large;
     border-color: #aaaaaa;
     margin-left: 0;
+    cursor: pointer;
 }
 
 #title {
